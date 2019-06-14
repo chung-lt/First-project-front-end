@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Project_Zent</title>
+
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"> </script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	 <script type="text/javascript">
+		$.noConflict();
+	</script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script type="text/javascript" src="js/wow.min.js"></script>
+   	<script>
+            new WOW().init();
+    </script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar-exp">
+	<a class="back-to-top " style="display: inline;">Back to Top</a>
+	<div id="head">		
+		<div class="row_head">
+			
+			<!-- <nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" ><img src="images/logo.svg" alt=""></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 navbar-exp">
+			      <ul class="nav navbar-nav nav-tabs navbar-right menu"  role="tablist">
+			        <li id="hom"><a>Home</a></li>
+			        <li id="solu"><a>Solutions</a></li>
+			        <li id="prod"><a>Products</a></li>
+			        <li id="pric"><a>Pricing</a></li>
+			        <li id="proj"><a >Projects</a></li>
+			        <li id="abou"><a >About</a></li>
+			        <li id="tea"><a>Team</a></li>
+			        <li id="cont"><a >Contact</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav> -->
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation ">
+        		<div class="container">
+				<div class="row">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="navbar-brand " ><img src="images/logo.svg" alt="logo"></div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li id="hom"><a>Home</a></li>
+			        	<li id="solu"><a>Solutions</a></li>
+			        	<li id="prod"><a>Products</a></li>
+			        	<li id="pric"><a>Pricing</a></li>
+			        	<li id="proj"><a >Projects</a></li>
+			        	<li id="abou"><a >About</a></li>
+			        	<li id="tea"><a>Team</a></li>
+			        	<li id="cont"><a >Contact</a></li>
+					</ul>
+				</div>
+				
+			</div>
+        </div>
+    </div>
+
+
+		</div>
+		<p class="wow bounceOut" >BUSINESS <span id="business_change">SERVICES</span> </p>
+		<p style="font-size: 30px;font-family: 'khula';" class="wow bounceInUp">Landing page template for growing businesses</p>
+		<div style="width: 135px; margin: auto">
+			<a class="button-solid sulutions_btn wow tada">SOLUTIONS</a>			
+		</div>
+		<br>
+		<br>
+		<br>
+		<div style="width: 25px; margin: auto;height:40p" id="angle-down">
+			<a id="down-to-solutions" style=" color: #ff631e" class="down-angle" ><i class="fa fa-angle-down fa-3x"></i></a>
+		</div>
+	</div>
+	<div class="customers " >	
+		<div class="col-md-2 logo-custom wow swing">
+			<img src="images/customer-logo-1.png" alt="">
+		</div>
+		<div class="col-md-2 logo-custom wow swing">
+			<img src="images/customer-logo-2.png" alt="">
+		</div>
+		<div class="col-md-2 logo-custom wow swing">
+			<img src="images/customer-logo-3.png" alt="">
+		</div>
+		<div class="col-md-2 logo-custom wow swing">
+			<img src="images/customer-logo-4.png" alt="">
+		</div>
+		<div class="col-md-2 logo-custom wow swing">
+			<img src="images/customer-logo-5.png" alt="">
+		</div>
+	</div>
+	<div id="solutions" class="solutions" >
+		<div class="container">
+			<p style="color: #464646; font-size: 40px" class="title-solution wow pulse ">SOLUTIONS</p>
+			<hr class="under-heading">
+			<div class="solutions-tabs">
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a href="#tab_a" data-toggle="tab" aria-expanded="true">SOFTWARE</a></li>
+					<li class=""><a href="#tab_b" data-toggle="tab" aria-expanded="false">HARDWARE</a></li>
+					<li class=""><a href="#tab_c" data-toggle="tab" aria-expanded="false">SERVICES</a></li>
+				</ul>
+			</div>
+			<div class="tab-content">
+					<!-- Tab_a -->
+					<div class="tab-pane tab-a fade active in" id="tab_a">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="software-box clearfix">
+									<i class="fa fa-rocket wow bounce"></i>
+									<h4 class="wow shake" >Better Performance</h4>
+									<p class="wow shake" >Accomplish more, faster with Vera's software application suite for agile startups and established corporate environments.</p>
+								</div>
+								<br>
+								<div class="software-box clearfix">
+									<i class="fa fa-television wow bounce"></i>
+									<h4 class="wow shake">Complete Control</h4>
+									<p class="wow shake">Guide your company through rough and prosperous times with customizable digital dashboards, designed to offer you total control.</p>
+								</div>
+								<br>
+								<div class="software-box clearfix">
+									<i class="fa fa-hdd-o wow bounce"></i>
+									<h4 class="wow swing">Unlimited Storage</h4>
+									<p class="wow swing">Each software solution is accompanied by a healthy online storage package of 1TB for each administrator license you acquire.</p>
+								</div>
+								<br>
+								<div class="software-box clearfix">
+									<i class="fa fa-pie-chart wow bounce"></i>
+									<h4 class="wow swing">Reports Manager</h4>
+									<p class="wow swing">Enjoy detailed reports about your business based on real-time information provided by Vera's data gathering algorithms.</p>
+								</div>
+							</div>
+							<div class="col-lg-6 wow rollIn">
+									<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+									  <ol class="carousel-indicators">
+									    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									  </ol>
+
+								  <!-- Wrapper for slides -->
+									  <div class="carousel-inner">
+									    <div class="item active">
+									      <img src="images/product-details-1.jpg" alt="...">
+									      <div class="carousel-caption">
+									       
+									      </div>
+									    </div>
+									    <div class="item">
+									      <img src="images/product-details-2.jpg" alt="...">
+									      <div class="carousel-caption">
+									        
+									      </div>
+									    </div>
+									    <div class="item">
+									      <img src="images/product-details-3.jpg" alt="...">
+									      <div class="carousel-caption">
+									        
+									      </div>
+									    </div>
+									   
+									  </div>
+
+									  <!-- Controls -->
+									  
+									</div>
+								
+							</div>
+						</div>
+					</div> <!-- end of tab_a -->
+					
+					<!-- Tab_b -->
+					<div class="tab-pane tab-b fade" id="tab_b">
+						<div class="row">
+							<div class="col-md-8">
+								<img class="img-responsive" src="images/solutions-hardware.png" alt="solutions image">
+							</div>
+							<div class="col-md-4">
+								<div class="right-pane">
+									<h3>Reliable Hardware Infrastructure</h3>
+									<p>Vera's software solutions run on state of the art hardware platforms built for total performance and protected by fail-safe backup systems.</p>
+									<p>Our efforts are focused on creating reliable business solutions for mission critical scenarios.</p>
+									<a class="read-more" href="#your-link-here">Find out more ››</a>
+								</div>
+							</div>
+						</div>
+					</div> <!-- end of tab_b -->
+					
+					<!-- Tab_c -->
+					<div class="tab-pane tab-c fade" id="tab_c">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="services-box text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+									</span>
+
+									<h4>Business Analysis</h4>
+									<p>Before any software solution proposal we analyze your operational processes and go through all of your business departments</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-box text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4>Solution Design</h4>
+									<p>After we've gathered as much information as possible about your company we design your personalized software solution</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-box text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-code fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4>Software Development</h4>
+									<p>We're counting on our highly experienced team of developers and team leaders to deliver highly optimized solutions</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="services-box text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4>Continuous Support</h4>
+									<p>After delivering the software solution we're making sure it's working at 100% all the time by providing quality support</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-box text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4>IT Outsourcing</h4>
+									<p>We offer high quality software development and IT outsourcing services for a selected range of customers and partners</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-box last text-center">
+									<span class="fa-stack fa-3x">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4>Professional Services</h4>
+									<p>Vera's highly skilled professionals in design, development and marketing provide some of the best professional services</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div> <!-- end of tab_c -->		
+	</div>
+	<div id="products" class="products">
+		<div class="container text-center">
+			<p style="color: #464646; font-size: 40px" class="title-solution wow pulse">PRODUCTS</p>
+			<hr class="under-heading">
+			<div class="row">
+				<div class="col-md-4 wow pulse">
+					<div class="product-container first">
+						<a class="popup-with-move-anim" href="#product-1">
+							<div class="image-container zoom">
+								<div  class="thumbnail" data-toggle="modal" data-target="#lightbox">
+									<img class="img-responsive hover-zoom" src="images/product-1.jpg" alt="product image">	
+								</div>
+							</div>
+						</a>
+						<h4>Lyra Landing Page</h4>
+						<p>Lyra landing page template helps designers and developers promote apps</p>
+						<a class="button-outline popup-with-move-anim" href="#product-1">DETAILS</a> <a class="button-solid" href="">BUY</a>
+					</div>
+				</div>
+				<div class="col-md-4 wow pulse">
+					<div class="product-container middle">
+						<a class="popup-with-move-anim" href="#product-2">
+							<div class="image-container zoom">
+								<div  class="thumbnail" data-toggle="modal" data-target="#lightbox">
+									<img class="img-responsive hover-zoom" src="images/product-2.jpg" alt="product image">
+								</div>
+							</div>
+						</a>
+						<h4>Leon Landing Page</h4>
+						<p>Leon is the most popular product and it helps customers sell mobile apps</p>
+						<a class="button-outline popup-with-move-anim" href="#product-2">DETAILS</a> <a class="button-solid" href="">BUY</a>
+					</div>
+				</div>
+				<div class="col-md-4 wow pulse">
+					<div class="product-container">
+						<a class="popup-with-move-anim" href="#product-3">
+							<div class="image-container zoom">
+								<div class="thumbnail" data-toggle="modal" data-target="#lightbox">
+									<img class="img-responsive hover-zoom" src="images/product-3.jpg" alt="product image">
+								</div>
+							</div>
+						</a>
+						<h4>Zigo Landing Page</h4>
+						<p>Zigo is focused on building landing page templates for software applications</p>
+						<a class="button-outline popup-with-move-anim" href="#product-3">DETAILS</a> <a class="button-solid" href="">BUY</a>
+					</div>
+				</div>
+				<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   					<div class="modal-dialog">
+        				<button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        				<div class="modal-content">
+            				<div class="modal-body">
+                				<img src="" alt="" />
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div> <!-- end of container -->
+	</div>
+	<div id="pricing" class="pricing">
+		<div class="container text-center">
+			<h2 class="title-solution wow pulse">PRICING</h2>
+			<hr class="under-heading">
+			<p class="under-heading">Choose the pricing plan that suits your requirements and contact our business development team for <br> further details and purchasing steps.</p>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 wow pulse">
+					<div class="pricing-pane">
+						<h3>Economy</h3>
+						<hr>
+						<p class="price">$99</p>
+						<hr>
+						<p>User Accounts: 5</p>
+						<p>Email Addresses: 5</p>
+						<p>Storage Space: 500 MB</p>
+						<p>Traffic Quantity: 5000 MB</p>
+						<button class="btn">REGISTER</button>
+					</div>
+				</div>	
+				<div class="col-sm-6 col-md-3 wow pulse">
+					<div class="pricing-pane">
+						<h3>Standard</h3>
+						<hr>
+						<p class="price">$129</p>
+						<hr>
+						<p>User Accounts: 5</p>
+						<p>Email Addresses: 5</p>
+						<p>Storage Space: 500 MB</p>
+						<p>Traffic Quantity: 5000 MB</p>
+						<button class="btn">REGISTER</button>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 wow pulse">	
+					<div class="pricing-pane">
+						<h3>Complete</h3>
+						<hr>
+						<p class="price">$149</p>
+						<hr>
+						<p>User Accounts: 5</p>
+						<p>Email Addresses: 5</p>
+						<p>Storage Space: 500 MB</p>
+						<p>Traffic Quantity: 5000 MB</p>
+						<button class="btn">REGISTER</button>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 wow pulse">	
+					<div class="pricing-pane">
+						<h3>Ultra</h3>
+						<hr>
+						<p class="price">$199</p>
+						<hr>
+						<p>User Accounts: 5</p>
+						<p>Email Addresses: 5</p>
+						<p>Storage Space: 500 MB</p>
+						<p>Traffic Quantity: 5000 MB</p>
+						<button class="btn">REGISTER</button>
+					</div>
+				</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="projects" class="projects" >
+		<div class="container text-center">
+				<h2 style="color: #464646; font-size: 40px" class="title-solution wow pulse">PROJECTS</h2>
+				<hr class="under-heading">
+				<ul class="nav nav-tabs tab-projects" role="tablist">
+				  <li class="active wow swing"><a href="#show_all" role="tab" data-toggle="tab">Show All</a></li>
+				  <li class="wow swing"><a href="#Banking" role="tab" data-toggle="tab">Banking</a></li>
+				  <li class="wow swing"><a href="#Government" role="tab" data-toggle="tab">Government</a></li>
+				  <li class="wow swing"><a href="#Hospitality" role="tab" data-toggle="tab">Hospitality</a></li>
+				  <li class="wow swing"><a href="#Manufacturing" role="tab" data-toggle="tab">Manufacturing</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+				  <div class="tab-pane active" id="show_all">
+				  	<div  class="col-xs-6 col-md-3 img_content zoom wow flipInX">
+				  		<div class="element-item-overlay"><span>Invest Bank</span></div>
+					  	<img class="img-responsive hover-zoom" src="images/project-1.jpg" alt="" >					  		
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content  zoom wow flipInY" >
+				  		<div class="element-item-overlay"><span>Classic Industry</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-2.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInX">
+				  		<div class="element-item-overlay"><span>BoomBap Audio</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-3.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInY">	
+				  		<div class="element-item-overlay"><span>Van Moose</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-4.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInX">
+				  		<div class="element-item-overlay"><span>Joy Moments</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-5.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInY">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-6.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInX">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-7.jpg" alt="">
+				  	</div>
+				  	<div class="col-xs-6 col-md-3 img_content zoom wow flipInY">
+				  		<div class="element-item-overlay"><span>Zazoo Apps</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-8.jpg" alt="">
+				  	</div>
+
+				  </div>
+				  <div class="tab-pane" id="Banking">
+				  	<div class="col-md-3 img_content col-xs-6 zoom ">
+				  		<div class="element-item-overlay"><span>BoomBap Audio</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-3.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">	
+				  		<div class="element-item-overlay"><span>Van Moose</span></div>
+				  		<img class="img-responsive  hover-zoom" src="images/project-4.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom ">
+				  		<div class="element-item-overlay"><span>Joy Moments</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-5.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6  zoom">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-6.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom ">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-7.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Zazoo Apps</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-8.jpg" alt="">
+				  	</div>	
+				  </div>
+				  <div class="tab-pane" id="Government">
+				  	<div class="col-md-3 img_content col-xs-6 zoom ">
+				  		<div class="element-item-overlay"><span>BoomBap Audio</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-3.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">	
+				  		<div class="element-item-overlay"><span>Van Moose</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-4.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom ">
+				  		<div class="element-item-overlay"><span>Joy Moments</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-5.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-6.jpg" alt="">
+				  	</div>
+				  </div>
+				  <div class="tab-pane" id="Hospitality">
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>BoomBap Audio</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-3.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">	
+				  		<div class="element-item-overlay"><span>Van Moose</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-4.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Joy Moments</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-5.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-6.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-7.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Zazoo Apps</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-8.jpg" alt="">
+				  	</div>	
+				  </div>
+				  <div class="tab-pane" id="Manufacturing">
+				  	<div class="col-md-3 img_content col-xs-6 zoom">
+				  		<div class="element-item-overlay"><span>Joy Moments</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-5.jpg" alt="">
+				  	</div>
+				  	<div class="col-md-3 img_content col-xs-6  zoom">
+				  		<div class="element-item-overlay"><span>Spark Events</span></div>
+				  		<img class="img-responsive hover-zoom" src="images/project-6.jpg" alt="">
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		</div>	
+		<div class="testimonials">
+		<div class="testimonials-image col-md-6 wow bounceIn">
+			
+		</div>
+		<div class="testimonials-text-pane col-md-6 wow bounceInUp">
+			<div class="testimonials-text-pane-container">
+				<h3 >Customers Trust Us</h3>
+				<div id="quote" class="carousel slide" data-ride="carousel" data-interval="4000">
+					<ol class="carousel-indicators">
+						<li data-target="#quote" data-slide-to="0" class="active"></li>
+						<li data-target="#quote" data-slide-to="1" class=""></li>
+						<li data-target="#quote" data-slide-to="2" class=""></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-circle" src="images/customer-testimonial-1.jpg" alt="customer testimonial">
+							<p>"Before starting to work with Vera our business was pretty chaotic and we had to do everything by hand without ever having a clear overview of our company's overall health. Now we managed to automate most of our processes and everything works like a charm."</p>
+							<h4>Mary Fitzgerald</h4>
+							<p>General Manager</p>
+						</div>
+						<div class="item">
+							<img class="img-circle" src="images/customer-testimonial-2.jpg" alt="customer testimonial">
+							<p>"After working with a bunch of sales and marketing automation SaaS Apps we settled on Vera because of its flexibility and performance which were in a different class right from day one. Vera delivered, as promised, the increase in revenue we needed so badly."</p>
+							<h4>Sully McLane</h4>
+							<p>Project Manager</p>
+						</div>
+						<div class="item">
+							<img class="img-circle" src="images/customer-testimonial-3.jpg" alt="customer testimonial">
+							<p>"We found in Vera not just a reliable supplier but a trusted partner which is capable of wonders when it comes to revenue growth based on sales and marketing automation. We had no problem in adopting Vera in our business flow and use it at its full potential."</p>
+							<h4>Simone Finley</h4>
+							<p>CEO</p>
+						</div>
+					</div>
+				</div> <!-- end of quote -->
+			</div>
+		</div>
+	</div>
+	<div id="about" class="about">
+		<div class="about-text col-md-6">
+			<div class="about-text-pane-holder clearfix">
+				<h2 class="text-center wow pulse">ABOUT</h2>
+				<hr class="under-heading">
+				<p>We're a young but determined company built by a professional and enthusiastic team, driven by our customers' success stories. As a team we're united by the same goal and we're always relying on each other.</p>
+				<ul>
+					<li>Experienced team of software and business developers</li>
+					<li>Skill-set ranges from design and development to marketing </li>
+					<li>Our mission is to create reliable bussiness applications</li>
+				</ul>
+				<p>Although we love to learn new skills whenever we have time, our strengths are in:</p>
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+						Software Development 100%
+					</div>
+				</div>
+				<div class="progress">	
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+						Business Analysis 90%
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+						Data Acquisition 95%
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-image col-md-6 wow bounceIn">	
+		</div>
+	</div>
+	<div class="statistics">
+		<div class="container">
+			<div class="row_counter">
+				<div class="num col-md-3">
+					<p class="counter">250</p>
+					<p class="title">Happy Customers</p>
+				</div>
+				<div class="num col-md-3">
+					<p class="counter">480</p>
+					<p class="title">Delivered Projects</p>
+				</div>
+				<div class="num col-md-3">
+					<p class="counter">642</p>
+					<p class="title">Quote Proposals</p>
+				</div>
+				<div class="num col-md-3">
+					<p class="counter">120</p>
+					<p class="title">Staff Members</p>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div>
+	<div id="team" class="team">
+		<div class="container" >
+			<h2 style="color: #464646; font-size: 40px" class="title-solution wow pulse">TEAM</h2>
+			<hr class="under-heading">
+			<div class="team-member">
+				<div class="image-container col-md-3 wow bounceIn">
+					<div class="view view-first ">
+	                    <img src="images/team-member-1.jpg" />
+	                    <div class="mask">
+	                        <p>Experienced manager with a successful background in design, print and project management.</p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>Rebecca Smith</h4>
+                	<p>Project Manager</p>
+				</div>
+				<div class="image-container col-md-3 wow bounceIn">
+					<div class="view view-first ">
+	                    <img src="images/team-member-2.jpg" />
+	                    <div class="mask">
+	                        <p>Passionate developer with awesome programming skills. Loves writing clean and efficient code.</p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>Mike Law</h4>
+                	<p>Software Developer</p>
+				</div>
+				<div class="image-container col-md-3  wow bounceIn">
+					<div class="view view-first">
+	                    <img src="images/team-member-3.jpg" />
+	                    <div class="mask">
+	                        <p>Experienced designer with a successful background in design, print and project management.</p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>John West</h4>
+                	<p>Graphic Designer</p>
+				</div>
+				<div class="image-container col-md-3  wow bounceInUp">
+					<div class="view view-first ">
+	                    <img src="images/team-member-4.jpg" />
+	                    <div class="mask">
+	                        <p>Front-end developer with a successful background in design, print and UI/UX.</p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>Susan Blake</h4>
+                	<p>Front-end Developer</p>
+				</div>
+				<div class="image-container col-md-3  wow bounceInUp">
+					<div class="view view-first ">
+	                    <img src="images/team-member-5.jpg" />
+	                    <div class="mask">
+	                        <p>Passionate marketer with a successful background in design, print and online marketing.</p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>Rob McDouglas</h4>
+                	<p>Online Marketer</p>
+				</div>
+				<div class="image-container col-md-3  wow bounceInUp">
+					<div class="view view-first ">
+	                    <img src="images/team-member-6.jpg" />
+	                    <div class="mask">
+	                        <p>Looking to hire experienced software developer. Send your CV's at </p>
+	                        <span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+	                    </div>
+                	</div>  
+                	<h4>Software Developer</h4>
+                	<p>Wanted</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newsletter">
+		<div class="container text-center">
+			<p style="color: #464646; font-size: 40px;padding-top: 50px" class="title-solution wow pulse">UPDATES</p>
+			<p class="under-heading">We're constantly developing new and interesting projects for commercial and non-profit use. Stay <br> on top of everything related to Vera by siging-up to our regular newsletter.</p>
+			
+			<!-- Newsletter Form -->
+			<form id="SignupForm" data-toggle="validator" novalidate="true">
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" placeholder="Email" required="">
+				</div>
+				<div class="form-group">
+					<button type="button" id="submit" class="button-small-solid disabled wow tada">SIGN UP</button>
+				</div>
+				<div class="form-message">
+					<div id="msgSubmit" class="h3 text-center hidden"></div>
+				</div>
+			</form>
+			<div id="notify-check-email">
+					
+			</div>	
+
+		</div>
+	</div>
+	<div id="contact" class="contact">
+		<div class="container text-center">
+			<p style="color: #464646; font-size: 40px; padding-top: 50px" class="title-solution wow pulse">CONTACT</p>
+			<p>Don't hesitate to use the form our contact details to get in touch</p>
+			<ul class="list-unstyled list-inline">
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i>22 Innovative Area, San Francisco, CA 94043, USA</li>
+				<li><i class="fa fa-phone" aria-hidden="true"></i><a class="phone-number" href="tel:003024630820">+30 2463 0820</a></li>
+				<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@vera.com">contact@vera.com</a></li>
+				<li><i class="fa fa-chrome" aria-hidden="true"></i><a href="#your-link">www.vera.com</a></li>
+			</ul>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="map-responsive">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.507640204439!3d37.757814996609724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sro!4v1498231462606" allowfullscreen="" width="100%" height="100%">
+						</iframe>
+					</div>
+				</div>
+				<div class="col-md-6">
+					
+					<!-- Contact Form -->
+					<form id="ContactForm" data-toggle="validator" novalidate="true">
+						<div class="form-group same-line">
+							<input type="text" class="form-control" placeholder="Name" id="name_contact" required="">
+						</div>
+						<div class="form-group same-line middle">
+							<input type="text" class="form-control" placeholder="Phone" required="" id="phone_contact">
+						</div>
+						<div class="form-group same-line">
+							<input type="email" class="form-control"  placeholder="Email" required="" id="email_contact">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control"  placeholder="Write your message here" rows="4" required="" id="message_contact"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="button" class="button-small-solid disabled wow tada" id="submit-contact">SUBMIT</button>
+						</div>
+						
+							
+					</form>
+					<div  id="notify_contact"></div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 footer-section">
+					<h4>Vera Template</h4>
+					<p>Vera is the right landing page template for business and corporate online projects.</p>
+				</div>
+				<div class="col-md-4 footer-section">
+					<h4>Contact Details</h4>
+					<p>12 Innovative Area, San Francisco, CA 9404, <a class="inverse" href="#your-link-here">office@veratemplate.com</a> <a class="inverse" href="#your-link-here">www.vera.com</a></p>
+				</div>
+				<div class="col-md-4 footer-section">
+					<h4 class="last">Social Networks</h4>
+					
+					<!-- Social Icons Container -->
+					<div class="social-icons-container">
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here" class="icon-footer">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+						<span class="fa-stack fa-lg">
+							<a href="#your-link-here">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+							</a>
+						</span>
+					</div> <!-- end of social icons container -->
+					
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div>
+	<div class="copyright">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-12">
+					<span>Copyright © Vera - Business Landing Page Template by</span> <a class="inverse" href="http://www.inovatik.com">Inovatik</a>
+				</div> 
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div>
+
+</body>
+</html>
